@@ -1,7 +1,7 @@
 
  <?php
 
-  // variaves 
+
   $numero1;
   $numero2;
 
