@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<meta charset="UTF-8">
+<title>Calculadora em PHP</title>
+<!-- Formulário da Calculadora -->
+<div id="calcula">
+<form method="post" action="index.php">
+<input type="text"  name="numero1"  id="recebendo"  placeholder="Informe um Número" maxlength="500" />
+<input type="text"  name="numero2"  id="recebendo"  placeholder="Informe um Número"maxlength="500" /><br>
+<input type="radio" name="opera"   value="somar" /><label>Somar</label><br>
+<input type="radio" name="opera"   value="multiplica" /><label>Multipicar</label><br>
+<input type="radio" name="opera"   value="dividir" /><label>Dividir</label><br>
+<input type="radio" name="opera"   value="subitrai" /><label>Subitrair</label><br>
+<input type="submit" id="botao"    value="Realizar" /> 
+</div>
+</form><div id="direitos">© 2018 Raphael Serafim</div></style>
