@@ -26,7 +26,7 @@ if(isset($_POST["numero1"]) && isset($_POST["numero2"]) && isset($_POST["opera"]
     $numero1=$_POST["numero1"];
     $numero2=$_POST["numero2"];
     $opera=$_POST["opera"];
-     
+    $erro= "Número Inválido";
     // comprando se são numeros se for comparando qual função  foi escolhida 
     if(valida($numero1, $numero1)){
         if($opera=='somar'){
@@ -42,6 +42,6 @@ if(isset($_POST["numero1"]) && isset($_POST["numero2"]) && isset($_POST["opera"]
             $resultado= subitrair($numero1, $numero2);
         }
     }else{
-        echo('Numero inválido');
+         echo "<table id='erro'><tr><td>$erro</td></tr></table>";
     }
 }
